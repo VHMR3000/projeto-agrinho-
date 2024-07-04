@@ -1,28 +1,21 @@
-/* Reset de estilos básico para garantir consistência entre navegadores */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f0f0f0;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    background: #164975;
+   
+    align-items: center;
 }
 
 header {
     background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
+    
+    padding: 1em 0;
     text-align: center;
 }
 
 header h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
+    margin: 0;
 }
 
 nav ul {
@@ -32,48 +25,80 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin: 0 1em;
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(226, 29, 29);
     text-decoration: none;
-    padding: 5px 10px;
 }
 
-nav ul li a:hover {
-    background-color: #45a049;
+main {
+    padding: 2em;
 }
 
 section {
-    background-color: white;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 5px;
+    margin-bottom: 2em;
 }
 
-section h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+.galeria {
+    display: flex;
+    justify-content: space-around;
+}
+
+.galeria img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5em;
+}
+
+form input, form textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #611c1c;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: rgb(65, 27, 27);
+    padding: 0.75em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
 }
 
 footer {
+    background-color: #4CAF50;
+    color: rgb(56, 14, 14);
     text-align: center;
-    margin-top: 20px;
-    padding: 10px 0;
-    background-color: #333;
-    color: white;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-footer p {
-    margin: 0;
+head {
+    background-color: #164975;
 }
 
-.principal {
-    background-color: url("post viva a simplicidade no campo (1).png");
-    background-repeat: "no-repeat";
-    background-size: contain;
-    align-items: "center";
-    text-align: "center";
+title {
+    background-color: #611c1c;
 }
-  
+
+
+
+

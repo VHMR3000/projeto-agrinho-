@@ -3,42 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Agrinho do Campo</title>
+    <title>Campo Tranquilo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Projeto Agrinho do Campo</h1>
+        <h1>Bem-vindo ao Campo Tranquilo</h1>
         <nav>
             <ul>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#atividades">Atividades</a></li>
+                <li><a href="#galeria">Galeria</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="sobre">
-        <h2>Sobre o Projeto Agrinho do Campo</h2>
-        <p>A migração do campo para a cidade tem sido uma realidade constante ao longo dos anos, impulsionada por uma série de fatores que vão desde a busca por melhores condições de vida até a procura por oportunidades de emprego e educação. No entanto, é crucial reconhecer que essa mudança não precisa ser vista apenas como um êxodo rural, mas sim como uma transição repleta de oportunidades.
+    <main>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Campo Tranquilo é um lugar de paz e serenidade, onde você pode se reconectar com a natureza. O sonho de uma vida mais tranquila e próxima a natureza é muito atraente para muitas pessoas. Por meses escutei e li histórias de pessoas que fizeram esse trajeto e percebi que as pessoas mudaram pelos mais diversos motivos, mas todas perseguiram um sonho que acreditavam que morar em um sítio seria a solução. Mudar de vida, mudar sua forma de gerar renda, mudar a forma de se relacionar com seus vizinhos… tudo isso muda quando você se muda para a zona rural. 
 
-        </p>
-    </section>
+                O direito de sonhar é uma noção ampla e subjetiva que se refere à liberdade de imaginar, criar e almejar objetivos, sem qualquer tipo de limitação ou impedimento. Este direito é fundamental para a realização pessoal e para o desenvolvimento de uma sociedade livre e justa.
+                
+                No entanto, esse direito não é absoluto e precisa ser equilibrado com outros direitos e valores importantes, como o direito ao meio ambiente equilibrado. Isso significa que, em algumas situações, o direito de sonhar pode ser limitado em nome da proteção do meio ambiente.</p>
+        </section>
 
-    <section id="atividades">
-        <h2>Atividades do Projeto</h2>
-        <p>Em primeiro lugar, a cidade oferece um vasto leque de oportunidades profissionais que podem não estar disponíveis no campo. Setores como tecnologia, serviços e indústria proporcionam uma gama variada de empregos que podem impulsionar o crescimento pessoal e econômico dos migrantes. Além disso, as cidades muitas vezes concentram instituições de ensino superior e centros de pesquisa, abrindo portas para o acesso à educação de qualidade e à formação especializada.
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <div class="galeria">
+                <img src="post viva a simplicidade no campo (1).png" alt="post viva a simplicidade no campo (1).png">
+                <img src="formas-de-trabalho-no-campo-980x551.jpeg" alt="Imagem do campo 2">
+                <img src="caballos-en-campo-e1559427841851-800x400.jpg" alt="Imagem do campo 3">
+            </div>
+        </section>
 
-            Por outro lado, a transição do campo para a cidade não precisa significar a perda das raízes rurais. Muitos migrantes mantêm laços estreitos com suas comunidades de origem, contribuindo para o desenvolvimento sustentável do campo através de investimentos, projetos sociais e iniciativas de empreendedorismo. Dessa forma, a migração pode servir como uma ponte entre o campo e a cidade, promovendo a troca de conhecimentos e experiências entre diferentes contextos..</p>
-    </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form action="#">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco para mais informações sobre o Projeto Agrinho do Campo, Basta acessar o site sistemafaep.org.br, acompanhar as redes sociais do Sistema FAEP/SENAR-PR ou en- caminhar e-mail para agrinho@senarpr.org.br.</p>
-    </section>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Projeto Agrinho do Campo. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Campo Tranquilo. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
+```
